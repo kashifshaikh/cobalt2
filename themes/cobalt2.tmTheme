@@ -14,7 +14,8 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#193549</string>
+        <!-- <string>#193549</string> -->
+        <string>#122635</string>
         <key>caret</key>
         <string>#ffc600</string>
         <key>foreground</key>
@@ -848,6 +849,8 @@
       <string>storage.type.function.js</string>
       <key>settings</key>
       <dict>
+      <key>fontStyle</key>
+				<string>normal</string>
         <key>foreground</key>
         <string>#FFA5F3</string>
         <key>background</key>
@@ -996,6 +999,8 @@
       <string>storage.type.function.jsx</string>
       <key>settings</key>
       <dict>
+      <key>fontStyle</key>
+				<string>normal</string>
         <key>foreground</key>
         <string>#FFA5F3</string>
         <key>background</key>
@@ -1326,6 +1331,20 @@
         <string>italic</string>
       </dict>
     </dict>
+
+    <dict>
+			<key>name</key>
+			<string>Keyword, Storage</string>
+			<key>scope</key>
+			<string>keyword, storage.type, storage.modifier</string>
+			<key>settings</key>
+			<dict>
+			<key>fontStyle</key>
+				<string>italic</string>
+				<!-- <key>foreground</key>
+				<string>#C594C5</string> -->
+			</dict>
+		</dict>
 
   </array>
   <key>uuid</key>
