@@ -1322,6 +1322,7 @@
         , entity.other.attribute-name.tag.jade,
         , constant.other.symbol.ruby,
         , entity.other.attribute-name.jsx,
+        , entity.other.attribute-name,
       </string>
       <key>settings</key>
       <dict>
